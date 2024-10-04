@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 90px;
+   display: flex;
+   padding: 20px;
+   justify-content: flex-start;
+   align-items: center;
+    position: relative;
+    position: sticky;
+}
+.menu-comp{
+    padding: 25px;
+}
+.menu{
+    text-decoration: none;
+    font-family: "Yeseva One", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: rgb(37, 36, 36);
+}
+.menubar{
+    color: rgb(37, 36, 36);
+    z-index: 3;
+    float: left;
+}
+.logo{
+    align-self: center;
+    position: absolute;
+   left: 50%;
+}
+.head-img{
+    width: 90%;
+    border-radius: 6px;
+    align-self: center;
+}
+.head-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 0;
+}
+.intro1-img-container{
+    margin: 70px;
+    margin-top: 60px;
+    padding: 30px;
+
+}
+p{
+    padding: 0;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 0.2px;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.intro1-img-container > h1{
+    font-family: "Yeseva One", serif;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+    padding: 25px;
+    color: rgb(238, 205, 133);
+}
+footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+}
+.drop{
+    color: brown;
+    font-size: 25px;
+   text-align: center;
+}
+@media (max-width:483){
+    .intro1-img-container > h1{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 20px;
+    }
+    .head-img{
+        width: 90%;
+        border-radius: 8px;
+        align-self: center;
+    }
+}
